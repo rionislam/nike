@@ -1,0 +1,145 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link rel="stylesheet" href="./public/index.css" />
+  </head>
+  <body>
+    <main class="relative">
+      <header class="padding-x py-8 absolute z-10 w-full">
+        <nav class="flex justify-between items-center max-container">
+          <a href="/">
+            <img
+              src="public/assets/images/header-logo.svg"
+              alt="Logo"
+              width="130"
+              height="29"
+            />
+          </a>
+          <ul
+            class="flex-1 flex justify-center items-center gap-16 max-lg:hidden"
+          >
+            <li>
+              <a
+                href="#home"
+                class="font-montserrat leading-normal text-lg text-slate-gray"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#aboutUs"
+                class="font-montserrat leading-normal text-lg text-slate-gray"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#products"
+                class="font-montserrat leading-normal text-lg text-slate-gray"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contactUs"
+                class="font-montserrat leading-normal text-lg text-slate-gray"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <div class="hidden max-lg:block">
+            <img
+              src="public/assets/icons/hamburger.svg"
+              alt="Hamburger"
+              height="25"
+              width="25"
+            />
+          </div>
+        </nav>
+      </header>
+      <section class="xl:padding-1 wide:padding-r padding-b">
+        <section
+          id="home"
+          class="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
+        >
+          <div
+            class="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28"
+          >
+            <p class="text-xl font-montserrat text-coral-red">
+              Our Summer Collection
+            </p>
+            <h1
+              class="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold"
+            >
+              <span class="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10"
+                >The New Arrival</span
+              >
+              <br />
+              <span class="text-coral-red inline-block mt-3">Nike</span> Shoes
+            </h1>
+            <p
+              class="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm"
+            >
+              Discover stylish Nike arrivals, quality comfort, and innovation
+              for your active life.
+            </p>
+            <button
+              class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red"
+            >
+              Shop Now
+              <img
+                src="public/assets/icons/arrow-right.svg"
+                alt="arrow right icon"
+                class="ml-2 rounded-full w-5 h-5"
+              />
+            </button>
+            <div
+              class="flex justify-start items-start flex-wrap w-full mt-20 gap-16"
+            >
+              <div>
+                <p class="text-4xl font-palanquin font-bold">1k+</p>
+                <p class="leading-7 font-montserrat text-slate-gray">Brands</p>
+              </div>
+              <div>
+                <p class="text-4xl font-palanquin font-bold">500+</p>
+                <p class="leading-7 font-montserrat text-slate-gray">Shops</p>
+              </div>
+              <div>
+                <p class="text-4xl font-palanquin font-bold">250k+</p>
+                <p class="leading-7 font-montserrat text-slate-gray">
+                  Customers
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center"
+          >
+            <img
+              src="public/assets/images/big-shoe1.png"
+              alt="shoe collection"
+              width="610"
+              height="500"
+              class="object-contain relative z-10"
+            />
+            <div>
+              <div></div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="padding">PopularProducts</section>
+      <section class="padding">SuperQuality</section>
+      <section class="padding-x py-10">Services</section>
+      <section class="padding">SpecialOffer</section>
+      <section class="bg-pale-blue padding">CustomerReview</section>
+      <section class="padding-x sm:py-32 py-16 w-full">Subscribe</section>
+      <section class="bg-black padding-x padding-t pb-8">Footer</section>
+    </main>
+  </body>
+</html>
