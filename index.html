@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike</title>
     <link rel="stylesheet" href="./public/index.css" />
+    <script src="public/index.js"></script>
   </head>
   <body>
     <main class="relative">
@@ -62,7 +63,7 @@
           </div>
         </nav>
       </header>
-      <section class="xl:padding-1 wide:padding-r padding-b">
+      <section class="xl:padding-l wide:padding-r padding-b">
         <section
           id="home"
           class="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
@@ -121,6 +122,7 @@
             class="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center"
           >
             <img
+              id="bigShoeImage"
               src="public/assets/images/big-shoe1.png"
               alt="shoe collection"
               width="610"
@@ -132,6 +134,7 @@
             >
               <div>
                 <div
+                  onclick="changeBigShoeImage(this)"
                   class="border-2 rounded-xl border-coral-red cursor-pointer max-sm:flex-1"
                 >
                   <div
@@ -149,6 +152,7 @@
               </div>
               <div>
                 <div
+                  onclick="changeBigShoeImage(this)"
                   class="border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1"
                 >
                   <div
@@ -166,13 +170,14 @@
               </div>
               <div>
                 <div
+                  onclick="changeBigShoeImage(this)"
                   class="border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1"
                 >
                   <div
                     class="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4"
                   >
                     <img
-                      src="public/assets/images/big-shoe2.png"
+                      src="public/assets/images/big-shoe3.png"
                       alt="big show 2"
                       width="127"
                       height="103"
