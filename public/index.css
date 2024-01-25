@@ -581,6 +581,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-11{
+  margin-top: 2.75rem;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -595,6 +599,10 @@ video {
 
 .mt-3{
   margin-top: 0.75rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .mt-6{
@@ -862,6 +870,10 @@ video {
   font-weight: 600;
 }
 
+.capitalize{
+  text-transform: capitalize;
+}
+
 .leading-7{
   line-height: 1.75rem;
 }
@@ -941,6 +953,15 @@ video {
   }
 }
 
+.info-text{
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  line-height: 21.94px;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(109 109 109 / var(--tw-text-opacity));
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -974,6 +995,10 @@ video {
 
   .max-lg\:hidden{
     display: none;
+  }
+
+  .max-lg\:flex-col{
+    flex-direction: column;
   }
 }
 
