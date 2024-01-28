@@ -605,16 +605,16 @@ video {
   margin-top: 1rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-5{
-  margin-top: 1.25rem;
 }
 
 .inline-block{
@@ -633,6 +633,10 @@ video {
   display: none;
 }
 
+.h-11{
+  height: 2.75rem;
+}
+
 .h-5{
   height: 1.25rem;
 }
@@ -641,12 +645,12 @@ video {
   height: 280px;
 }
 
-.h-11{
-  height: 2.75rem;
-}
-
 .min-h-screen{
   min-height: 100vh;
+}
+
+.w-11{
+  width: 2.75rem;
 }
 
 .w-5{
@@ -659,10 +663,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-11{
-  width: 2.75rem;
 }
 
 .flex-1{
@@ -741,16 +741,16 @@ video {
   overflow-wrap: break-word;
 }
 
+.rounded-\[20px\]{
+  border-radius: 20px;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
 
 .rounded-xl{
   border-radius: 0.75rem;
-}
-
-.rounded-\[20px\]{
-  border-radius: 20px;
 }
 
 .border{
@@ -768,6 +768,11 @@ video {
 
 .border-transparent{
   border-color: transparent;
+}
+
+.border-slate-gray{
+  --tw-border-opacity: 1;
+  border-color: rgb(109 109 109 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -790,6 +795,11 @@ video {
   background-color: rgb(236 238 255 / var(--tw-bg-opacity));
 }
 
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-card{
   background-image: url('assets/images/thumbnail-background.svg');
 }
@@ -809,6 +819,11 @@ video {
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-7{
@@ -834,11 +849,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pb-8{
@@ -1005,6 +1015,10 @@ video {
 }
 
 @media not all and (min-width: 1280px){
+  .max-xl\:flex-col-reverse{
+    flex-direction: column-reverse;
+  }
+
   .max-xl\:py-40{
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -1061,10 +1075,6 @@ video {
 
   .max-sm\:text-\[72px\]{
     font-size: 72px;
-  }
-
-  .max-sm\:leading-\[82\]{
-    line-height: 82;
   }
 
   .max-sm\:leading-\[82px\]{
