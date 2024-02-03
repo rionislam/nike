@@ -11,9 +11,11 @@
   </head>
   <body>
     <main class="relative">
-      <header class="padding-x py-8 absolute z-10 w-full">
+      <header
+        class="padding-x py-8 absolute z-10 w-full max-lg:fixed max-lg:bg-white"
+      >
         <nav class="flex justify-between items-center max-container">
-          <a href="/">
+          <a href="/" class="max-lg:z-20">
             <img
               src="public/assets/images/header-logo.svg"
               alt="Logo"
@@ -22,7 +24,8 @@
             />
           </a>
           <ul
-            class="flex-1 flex justify-center items-center gap-16 max-lg:hidden"
+            id="menu"
+            class="flex-1 flex justify-center items-center gap-16 max-lg:flex-col max-lg:fixed max-lg:z-10 max-lg:bg-white max-lg:w-screen max-lg:h-full max-lg:top-1/2 max-lg:translate-y-[-50%] max-lg:-left-full transition-left duration-500"
           >
             <li>
               <a
@@ -58,12 +61,17 @@
           >
             <a href="/">Sign in</a><span>/</span><a href="/">Explore now</a>
           </div>
-          <div class="hidden max-lg:block">
+          <div
+            class="hidden max-lg:block max-lg:z-10"
+            id="menuBtn"
+            onclick="toggleMenu(this)"
+          >
             <img
               src="public/assets/icons/hamburger.svg"
               alt="Hamburger"
               height="25"
               width="25"
+              class="transition-all duration-500"
             />
           </div>
         </nav>
@@ -82,7 +90,8 @@
             <h1
               class="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold"
             >
-              <span class="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10"
+              <span
+                class="xl:bg-white xl:whitespace-nowrap relative z-10 max-lg:z-0 pr-10"
                 >The New Arrival</span
               >
               <br />
@@ -132,7 +141,7 @@
               alt="shoe collection"
               width="610"
               height="500"
-              class="object-contain relative z-10"
+              class="object-contain relative z-10 max-lg:z-0"
             />
             <div
               class="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6"
