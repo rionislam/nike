@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./public/index.css" />
     <script src="public/index.js"></script>
   </head>
@@ -515,14 +516,24 @@
             exceptional experiences with us.
           </p>
           <div
-            class="mt-24 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14"
+            class="mt-12 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14"
           >
-            <div class="flex justify-center items-center flex-col">
-              <img
-                src="public/assets/images/customer1.jpeg"
-                alt="customer"
-                class="rounded-full object-cover w-[120px] h-[120px]"
-              />
+            <div class="group flex justify-center items-center flex-col">
+              <div
+                class="grid items-end w-[120px] h-[180px] rounded-b-full overflow-hidden relative transition-transform duration-300 ease-in-out group-hover:scale-110"
+              >
+                <img
+                  src="public/assets/images/customer1-background.jpg"
+                  alt="customer background"
+                  class="rounded-full object-cover w-[120px] h-[120px]"
+                />
+                <img
+                  src="public/assets/images/customer1.png"
+                  alt="customer"
+                  class="object-cover w-[120px] h-[120px] absolute scale-110 transition-transform duration-300 ease-in-out group-hover:-translate-y-[7px]"
+                />
+              </div>
+
               <p class="mt-6 max-w-sm text-center info-text">
                 The attention to detail and the quality of the product exceeded
                 my expectations. Highly recommended.
@@ -540,12 +551,21 @@
                 Moric Brown
               </h3>
             </div>
-            <div class="flex justify-center items-center flex-col">
-              <img
-                src="public/assets/images/customer2.svg"
-                alt="customer"
-                class="rounded-full object-cover w-[120px] h-[120px]"
-              />
+            <div class="group flex justify-center items-center flex-col">
+              <div
+                class="grid items-end w-[120px] h-[180px] rounded-b-full overflow-hidden relative transition-transform duration-300 ease-in-out group-hover:scale-110"
+              >
+                <img
+                  src="public/assets/images/customer2-background.jpg"
+                  alt="customer background"
+                  class="rounded-full object-cover w-[120px] h-[120px]"
+                />
+                <img
+                  src="public/assets/images/customer2.png"
+                  alt="customer"
+                  class="object-cover w-[120px] h-[120px] absolute scale-110 transition-transform duration-300 ease-in-out group-hover:-translate-y-[7px]"
+                />
+              </div>
               <p class="mt-6 max-w-sm text-center info-text">
                 The product not only met but exceeded my expectations. I'll
                 definitely be returning customer!
